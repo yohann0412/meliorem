@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom styles */
+body {
+  @apply bg-background min-h-screen;
+}
+
+h1 {
+  @apply text-[30px] font-semibold;
+}
+
+h2 {
+  @apply text-[23px] font-medium;
+}
+
+p {
+  @apply text-[19px];
+}
