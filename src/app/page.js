@@ -25,11 +25,18 @@ export default function Home() {
     <div className="space-y-8">
       <section className="text-center py-12">
         <h1 className="text-4xl font-bold text-gray-800 mb-4">
-          Welcome to Wellness Tracker
+          Welcome to Meliorem
         </h1>
         <p className="text-xl text-gray-600 max-w-2xl mx-auto">
           Your personal companion for mental health tracking and wellness improvement.
         </p>
+        <p className="text-xl text-gray-600 max-w-2xl mx-auto">
+  <span className="block text-4xl font-bold text-primary animate-pulse mb-4 mt-6">
+    Life can be overwhelming,
+  </span>
+  but taking care of your mind and body doesn’t have to be. This space is designed just for you—to help you track your stress, reflect on your thoughts, and find the perfect workouts to boost your well-being. Whether you're looking for balance, motivation, or just a fresh start, you’re in the right place!
+</p>
+
       </section>
 
       <div className="grid md:grid-cols-2 gap-8">
@@ -69,6 +76,12 @@ export default function Home() {
           </p>
         </div>
       </div>
+      <div className="flex justify-center mt-6">
+  <button className="bg-primary text-white font-semibold px-6 py-3 rounded-2xl shadow-lg hover:bg-primary/90 transition">
+  <a href="/" >Learn More</a>
+
+  </button>
+</div>
     </div>
     </>
   )

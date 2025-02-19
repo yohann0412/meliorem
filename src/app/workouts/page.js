@@ -1,3 +1,4 @@
+import WorkoutTrackerPopup from "@/components/WorkoutTrackerPopup"
 export default function Workouts() {
     const workouts = [
       {
@@ -21,6 +22,8 @@ export default function Workouts() {
     ]
   
     return (
+      <>
+      <WorkoutTrackerPopup> </WorkoutTrackerPopup>
       <div className="space-y-6">
         <h1 className="text-3xl font-bold">Workout Library</h1>
         
@@ -41,5 +44,6 @@ export default function Workouts() {
           ))}
         </div>
       </div>
+      </>
     )
   }
