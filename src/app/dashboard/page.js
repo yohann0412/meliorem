@@ -11,7 +11,7 @@ export default function Dashboard() {
       mood: 4,
       stressLevel: 2,
       sleepHours: 7.5,
-      stressFactors: ['Academic Pressure', 'Physical Appearance'],
+      stressFactors: ['Academics', 'Appearance'],
       activities: ['Meditation', 'Exercise'],
       notes: "Had a tough exam today but managed to stay positive. Need to work on my study schedule."
     },
