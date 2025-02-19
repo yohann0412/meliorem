@@ -25,7 +25,7 @@ export default function Workouts() {
       <>
       <WorkoutTrackerPopup> </WorkoutTrackerPopup>
       <div className="space-y-6">
-        <h1 className="text-3xl font-bold">Workout Library</h1>
+        <h1 className="text-3xl font-bold">Recommended workouts for <i>you</i></h1>
         
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
           {workouts.map((workout, index) => (

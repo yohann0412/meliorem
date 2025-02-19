@@ -55,6 +55,7 @@ export default function Navbar() {
               </div>
             )}
           </div>
+          <a href="/learnmore" className="text-white hover:text-gray-200">Learn More</a>
         </div>
       </div>
     </nav>

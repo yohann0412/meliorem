@@ -78,7 +78,7 @@ export default function Home() {
       </div>
       <div className="flex justify-center mt-6">
   <button className="bg-primary text-white font-semibold px-6 py-3 rounded-2xl shadow-lg hover:bg-primary/90 transition">
-  <a href="/" >Learn More</a>
+  <a href="/learnmore" >Learn More</a>
 
   </button>
 </div>
