@@ -15,6 +15,8 @@ export default function Dashboard() {
       activities: ['Meditation', 'Exercise'],
       notes: "Had a tough exam today but managed to stay positive. Need to work on my study schedule."
     },
+
+
     {
       date: '2024-02-04',
       mood: 3,
